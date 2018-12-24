@@ -23,19 +23,19 @@ module.exports = {
       options: {
         trackingId: "UA-131201429-1",
         // Puts tracking script in the head instead of the body
-        head: false,
+        head: true,
         // Setting this parameter is optional
-        anonymize: true,
+        //anonymize: false,
         // Setting this parameter is also optional
-        respectDNT: true,
+        //respectDNT: false,
         // Avoids sending pageview hits from custom paths
-        exclude: ["/preview/**", "/do-not-track/me/too/"],
+        //exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Enables Google Optimize using your container Id
-        optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
+        //optimizeId: "YOUR_GOOGLE_OPTIMIZE_TRACKING_ID",
         // Any additional create only fields (optional)
-        sampleRate: 5,
-        siteSpeedSampleRate: 10,
-        cookieDomain: "example.com",
+        //sampleRate: 5,
+        //siteSpeedSampleRate: 10,
+        //cookieDomain: "example.com",
       },
     },
     'gatsby-plugin-sass',
